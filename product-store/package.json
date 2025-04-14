@@ -1,8 +1,9 @@
 {
   "name": "product-store",
   "version": "1.0.0",
+  "homepage": ".",
   "scripts": {
-    "start": "node server/server.js",     
+    "start": "node server/server.js",
     "build": "react-scripts build",
     "heroku-postbuild": "npm run build"
   },
@@ -18,5 +19,17 @@
     "react-scripts": "5.0.1",
     "react-router-dom": "^6.0.0",
     "axios": "^1.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
