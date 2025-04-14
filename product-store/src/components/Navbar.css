@@ -1,0 +1,31 @@
+/* Navbar.css */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    margin: 0;
+  }
+  
+
+  nav ul li a,
+  nav ul li button {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: inherit;
+  }
+  
+
+  nav ul li a:hover,
+  nav ul li button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+
+  .link-button {
+    all: unset;        
+  }
+  

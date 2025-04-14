@@ -1,0 +1,94 @@
+.products-page {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #000; /* Black font for contrast */
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.page-title {
+  text-align: center;
+  color: #000; /* Black font for the title */
+}
+
+.create-product {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.product-input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #000; /* Black font for input text */
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+.product-button {
+  padding: 10px 15px;
+  background-color: #007bff; /* Blue button */
+  color: #f8f9fa; /* Light gray font for contrast */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #000; /* Black font for contrast */
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.edit-button,
+.delete-button,
+.save-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #ffc107; /* Yellow button */
+  color: #000; /* Black font for contrast */
+}
+
+.edit-button:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.delete-button {
+  background-color: #dc3545; /* Red button */
+  color: #f8f9fa; /* Light gray font for contrast */
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.save-button {
+  background-color: #28a745; /* Green button */
+  color: #f8f9fa; /* Light gray font for contrast */
+}
+
+.save-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
